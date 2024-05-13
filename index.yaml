@@ -3,6 +3,20 @@ entries:
   recipe-api:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-05-13T09:38:19.21132857Z"
+    dependencies:
+    - name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.12
+    description: A Helm chart for Kubernetes
+    digest: 361bb74c8e6415d6ad339ef667596783d3e63d0ce39487d2a8952e02a7c8f408
+    name: recipe-api
+    type: application
+    urls:
+    - recipe-api-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-05-13T09:14:21.279512213Z"
     dependencies:
     - name: postgresql
@@ -15,4 +29,4 @@ entries:
     urls:
     - recipe-api-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-13T09:14:21.279516992Z"
+generated: "2024-05-13T09:38:19.211352735Z"
